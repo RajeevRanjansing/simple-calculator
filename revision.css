@@ -1,0 +1,45 @@
+.calculator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vmin;
+    border:1px solid black;
+}
+
+.container{
+    height:50vmin;
+    width:18%;
+    border:2px solid black;
+    background-color: #2196F3
+}
+
+#show{
+    height: 65px;
+    width: 98%;
+    text-align: right;
+    font-size: 35px;
+    border: none;
+}
+
+button{
+    height:52px;
+    width:21%;
+    border-radius: 50%;
+    margin:3px;
+    font-size: 20px;
+    border: none;
+}
+
+button:hover{
+    background-color: orange;
+}
+
+.equal{
+    background-color: orange;
+}
+
+
+
+#sym{
+    color:red;
+}
